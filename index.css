@@ -9,6 +9,8 @@ body{
     font-family: "red hat mono";
     background-color: #f5f5f5;
     color: #034078;
+    display: block;
+    overflow: auto;
 }
 a{
     text-decoration: none;
@@ -115,7 +117,7 @@ a{
         text-align: center;
         margin-left: 2%;
     }
-    #abit-section{
+    #about-divider{
         width: 100%;
         display: flex;
         margin-top: 10%;
@@ -239,7 +241,6 @@ a{
     #projectstext{
         font-size: 2rem;
         font-weight: 800;
-        margin-left: 2%;
     }
     #projectslinetext{
         width: 40%;
@@ -248,7 +249,6 @@ a{
     }
     .projectscontainer{
         width: 90%;
-        padding: 0;
         margin: 4%;
         margin-top: 20%;
         border-radius: 10px;
@@ -257,18 +257,30 @@ a{
     }
     .prjname{
         text-align: center;
-        background-color: #034078;
+        background-color: #1282a2;
         color: #FFF;
         height: 20%;
+        padding: 2%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
     .projectimage{
         width: 100%;
-        height: 100%;
+        height: 200px;
+        box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        object-fit: cover;
+    }
+    .githublogo{
+        width: 20%;        
+        margin-top: -100%;
+        margin-bottom: 10%;
+        margin-left: 3%;
+        left: 0;
     }
     #prjtext1,#prjtext2{
-        padding-left: 5%;        
+        padding: 0 5% 5% 5%;
     }
 
 }
