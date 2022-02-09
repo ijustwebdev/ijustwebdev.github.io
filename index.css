@@ -76,7 +76,7 @@ a{
         margin: 3%;
         padding: 1rem 1.5rem;
         box-shadow: 0 4px 0 #034078;
-        border-radius: 10%;
+        border-radius: 10px;
         
         
     }
@@ -241,6 +241,8 @@ a{
     #projectstext{
         font-size: 2rem;
         font-weight: 800;
+        margin-left: 2%;
+
     }
     #projectslinetext{
         width: 40%;
@@ -276,11 +278,37 @@ a{
         width: 20%;        
         margin-top: -100%;
         margin-bottom: 10%;
-        margin-left: 3%;
+        margin-left: 75%;
         left: 0;
+        opacity: .5;
     }
-    #prjtext1,#prjtext2{
+    .prjtext{
         padding: 0 5% 5% 5%;
+        margin: 0;
+        text-align: center;
+    }
+    #contact-divider{
+        width: 100%;
+        display: flex;
+        margin-top: 10%;
+        justify-content: space-between;
+
+    }
+    #contactheadline{
+        height: 0;
+        width: 65%;
+        border: 1px dashed #034078;
+        margin-top: 3%;
+        margin-left: -10%;
+    }
+    #contactlinetext{
+        text-align: center;
+        margin-left: 2%;
+    }
+    #contacttext{
+        font-size: 2rem;
+        font-weight: 800;
+        margin-left: 2%;
     }
 
 }
