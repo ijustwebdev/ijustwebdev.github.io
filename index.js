@@ -2,6 +2,16 @@ var typed = new Typed('#hello', options = {
     strings: ["Hello!"],
     typeSpeed: 40,
     startDelay: 900,
-    cursorChar: "_"
+    backSpeed: 70,
+    cursorChar: "_",
+    shuffle: true,
+    fadeOut: true,
+    fadeOutDelay: 700
     }
 );
+function checkResIfSupport(){
+    if(screen.width > 1920){
+        alert("Your resolution is currently unsupported on my website at a screen width of " + screen.width + "px. Some elements may not render or position correctly. Sorry about that I'm still working on it.");
+    }
+}
+checkResIfSupport();
