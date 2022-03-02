@@ -108,6 +108,13 @@
     #greeting > span{
         margin-top: 2%;
     }
+    #abit{
+        font-size: 2rem;
+        margin-left: 1%;
+    }
+    #headline{
+        width: 80%;
+    }
 }
 @media (min-width: 1024px) {
     #name{
