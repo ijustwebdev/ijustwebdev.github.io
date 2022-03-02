@@ -116,12 +116,49 @@
         margin-top: 2%;
     }
     #abit{
-        font-size: 2rem;
-        margin-left: 1%;
+        font-size: 1.7rem;
+        margin-left: 0%;
     }
     #headline{
         width: 80%;
+        margin-top: 2.5%;
     }
+    #myphoto{
+        width: 50%;
+    }
+    .aboutinfo{
+        font-size: 1.2rem;
+    }
+    #skillslinetext{
+        width: 25%;
+        font-size: 1.7rem;
+    }
+    #skillsheadline{
+        width: 70%;
+        margin-top: 2.5%;
+    }
+    #workedwithtext{
+        font-size: 1.5rem;
+    }
+    #projectslinetext{
+        width: 27%;
+        margin-left: 3%;
+        font-size: 1.7rem;
+    }
+    #projectsheadline{
+        width: 69%;
+        margin-top: 2.5%;
+    }
+    #contactlinetext{
+        font-size: 1.7rem;
+        margin-left: 4%;
+    }
+    #contactheadline{
+        margin-top: 2.5%;
+        width: 72%;
+    }
+    
+    
 }
 @media (min-width: 1024px) {
     #name{
