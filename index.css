@@ -111,6 +111,7 @@
         height: 1rem;
         text-align: center;
         margin-left: 2%;
+        font-size: 1.1rem;
     }
     #about-divider{
         width: 100%;
@@ -304,5 +305,8 @@
         font-size: 2rem;
         font-weight: 800;
         margin-left: 2%;
+    }
+    .links.contact{
+        margin-bottom: 20%;
     }
 }
