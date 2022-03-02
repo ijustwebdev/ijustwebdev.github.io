@@ -47,11 +47,18 @@
         width: 80%;
         margin-top: 3%;
     }
+    #skillsheadline{
+        width: 60%;
+    }
     #contactheadline{
-        width: 70%;
+        width: 63%;
     }
     #projectslinetext{
-        width: 30%;
+        width: 40%;
+        margin-left: 2%;
+    }
+    #projectsheadline{
+        width: 60%;
     }
     .links a{
         font-size: 1.1rem;
