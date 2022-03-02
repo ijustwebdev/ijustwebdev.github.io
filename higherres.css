@@ -1,6 +1,6 @@
 @media (min-width: 375px) {
     #webdeveloper{
-        top: 5%;
+        margin-top: 1%;
     }
     #abit{
         font-size: 1.4rem;
@@ -42,7 +42,10 @@
     }
     #webdeveloper{
         font-size: 1.4rem;
-        top: 6%;
+    }
+    #headline{
+        width: 80%;
+        margin-top: 3%;
     }
     #contactheadline{
         width: 70%;
@@ -55,23 +58,30 @@
         padding: 5%;
         width: 30%;
     }
+    
 }
-@media (min-width: 768px) {
+@media (min-width: 525px){
+    #name{
+        width: 60%;
+    }
     #navbar{
         height: 6.5rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
+}
+@media (min-width: 768px) {
     #name{
         width: 50%;
         margin-top: 1%;
         margin-left: 1%;
     }
     #webdeveloper{
-        top: 7%;
-        left: 2%;
+        margin-left: 2%;
         font-size: 1.5rem;
     }
     #linkedin{
-        margin-top: -8%;
+        margin-top: -13%;
         padding: 1%;
     }
     #linkedin img{
