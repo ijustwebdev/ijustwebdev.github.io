@@ -1,6 +1,6 @@
 @media (min-width: 375px) {
     #webdeveloper{
-        top: 6%;
+        top: 5%;
     }
 }
 @media (min-width: 425px) {
@@ -177,7 +177,7 @@
         height: 6vw;
     }
     .skillstext{
-        font-size: 1.5vw;
+        font-size: 1.5rem;
     }
     #skillscontainer{
         margin-top: 5%;
@@ -203,6 +203,36 @@
         margin-top: 5%;
         width: 20%;
     }
+    #projectscontainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    #projects-divider{
+        margin-top: 5%;
+    }
+    #contactlinetext{
+        font-size: 3rem;
+        width: 19%;
+        margin-left: 1%;
+    }
+    #contactheadline{
+        margin-top: 1.8%;
+        width: 80%;
+    }
+    #contacttext{
+        font-size: 4rem;
+    }
+    #contact-divider{
+        margin-top: 5%;
+    }
+    .links.contact{
+        margin-bottom: 15%;
+        margin-top: 5%;
+    }
+    
 
 }
 
