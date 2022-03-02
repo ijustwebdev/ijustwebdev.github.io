@@ -2,6 +2,39 @@
     #webdeveloper{
         top: 5%;
     }
+    #abit{
+        font-size: 1.4rem;
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    #headline{
+        width: 70%;
+        margin-top: 4%;
+    }
+    #skillslinetext{
+        font-size: 1.3rem;
+        margin-left: 3%;
+    }
+    #skillsheadline{
+        width: 52%;
+        margin-top: 4%;
+    }
+    #projectslinetext{
+        font-size: 1.3rem;
+        margin-left: 5%;
+    }
+    #projectsheadline{
+        width: 50%;
+        margin-top: 4%;
+    }
+    #contactlinetext{
+        font-size: 1.3rem;
+        margin-left: 5%;
+    }
+    #contactheadline{
+        width: 56%;
+        margin-top: 4%;
+    }
 }
 @media (min-width: 425px) {
     #navbar{
