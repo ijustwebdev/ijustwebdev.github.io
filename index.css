@@ -43,17 +43,16 @@
     #linkedin{
         width: 15%;
         margin-left: 83%;
-        margin-top: -10%;
+        margin-top: -15%;
     }
     #linkedin img{
         width: 100%;
     }
     #webdeveloper{
         color: #f5f5f5;
-        position: absolute;
-        top: 5%;
-        left: 4%;
         font-size: 1.1rem;
+        margin-left: 3%;
+        margin-top: 2%;
     }
     .links{
         margin-top: 10%;
