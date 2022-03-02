@@ -170,12 +170,38 @@
     #workedwith{
         width: 40%;
         margin-top: 0;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     .skillsicon{
         height: 6vw;
     }
     .skillstext{
-        font-size: 2vw;
+        font-size: 1.5vw;
+    }
+    #skillscontainer{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .skillsbadge{
+        padding: 2%;
+    }
+    #projectslinetext{
+        font-size: 3rem;
+        width: 19%;
+        margin-left: 2.5%;
+    }
+    #projectstext{
+        display: block;
+        font-size: 4rem;
+    }
+    #projectsheadline{
+        width: 77%;
+        margin-top: 2%;
+    }
+    .projectbadge{
+        margin-top: 5%;
+        width: 20%;
     }
 
 }

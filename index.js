@@ -11,7 +11,9 @@ var typed = new Typed('#hello', options = {
 );
 function checkResIfSupport(){
     if(screen.width > 1920){
-        alert("Your resolution is currently unsupported on my website at a screen width of " + screen.width + "px. Some elements may not render or position correctly. Sorry about that I'm still working on it.");
+        alert("Your resolution is currently unsupported on my website at a screen width of " + screen.width + "\
+        px. Some elements may not render or position correctly. The largest currently supported width is 1920px. \
+        Sorry about that I'm still working on it.");
     }
 }
 checkResIfSupport();
