@@ -1,5 +1,5 @@
 # My current portfolio page
-  This is my most recent page I created. It's a SPA that serves to host some information about me, a few of the most recent small projects I've done, and provides some links to get into contact with me. This is my first attempt at creating a responsive website and it was quite the learning exercise.
+  This is my most recent page I created. It's a simple site that serves to host some information about me, a few of the most recent small projects I've done, and provides some links to get into contact with me. This is my first attempt at creating a responsive website and it was quite the learning exercise.
 
   I used HTML, CSS, and a little Javascript to create what I have right now. In the future I want to add some animations to the page to allow elements to come into view with a bit more excitement. I also have considered using React but I haven't come across anything that would require it so I've kinda put that off. 
 
