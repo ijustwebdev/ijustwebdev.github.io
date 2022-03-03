@@ -256,7 +256,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-items: start;
     }
     .projectbadge{
         width: 30%;
@@ -275,11 +275,59 @@
     }
     #linkedin{
         width: 8%;
-        margin-top: -5%;
+        margin-top: -7%;
         margin-left: 90%;
     }
     #about-divider{
         margin-top: 6%;
+    }
+    #abit{
+        width: 7%;
+        margin-bottom: 1%;
+    }
+    #headline{
+        width: 89%;
+        margin-top: 1.3%;
+    }
+    #aboutme{
+        margin-top: 0;
+        font-size: 2.2rem;
+    }
+    #skillslinetext{
+        width: 15%;
+    }
+    #skillsheadline{
+        margin-top: 1.5%;
+        width: 82%;
+    }
+    #skillstext{
+        font-size: 2.2rem;
+    }
+    #projects-divider{
+        margin-top: 5%;
+    }
+    #projectslinetext{
+        width: 15%;
+    }
+    #projectsheadline{
+        margin-top: 1.5%;
+        width: 81%;
+    }
+    #projectstext{
+        font-size: 2.2rem;
+    }
+    .prjname{
+        font-size: 1.4rem;
+    }
+    #contacttext{
+        font-size: 2.2rem;
+    }
+    #contactlinetext{
+        width: 12%;
+    }
+    #contactheadline{
+        width: 83%;
+        margin-top: 1.3%;
     }
 }
 @media (min-width: 1920px){
