@@ -290,8 +290,11 @@
         margin-top: 1.3%;
     }
     #aboutme{
-        margin-top: 0;
+        margin-top: 1%;
         font-size: 2.2rem;
+    }
+    #abouttext{
+        margin-top: -40%;
     }
     #skillslinetext{
         width: 15%;
@@ -340,7 +343,7 @@
     }
     #linkedin{
         width: 6%;
-        margin-top: -3.8%;
+        margin-top: -5.5%;
         margin-left: 92%;
     }
     #hello{
@@ -353,6 +356,12 @@
     #abit{
         font-size: 3rem;
         width: 10%;
+    }
+    #aboutme{
+        font-size: 4rem;
+    }
+    #abouttext{
+        margin-top: -40%;
     }
     #headline{
         margin-top: 1.6%;
