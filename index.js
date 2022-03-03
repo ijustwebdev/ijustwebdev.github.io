@@ -17,7 +17,3 @@ function checkResIfSupport(){
     }
 }
 checkResIfSupport();
-function warn(){
-    alert("Some things broke when switching to github pages from live server. If you're here already somehow just bear with me while I fix this. Thanks.");
-}
-warn();
