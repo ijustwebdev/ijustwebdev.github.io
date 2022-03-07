@@ -421,5 +421,8 @@
             width: 70%;
             margin: 0 auto;
         }
+        #linkedin img{
+            width: 80%;
+        }
     }
 }
