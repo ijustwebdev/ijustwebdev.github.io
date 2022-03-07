@@ -416,4 +416,10 @@
         margin-bottom: 15%;
         margin-top: 5%;
     }
+    @media (min-width: 2560px){
+        #wrapper{
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
 }
