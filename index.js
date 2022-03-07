@@ -1,5 +1,5 @@
 // typed.js stuff
-var typed = new Typed('#hello', options = {
+let typed = new Typed('#hello', options = {
     strings: ["Hello!"],
     typeSpeed: 40,
     startDelay: 900,
@@ -22,16 +22,27 @@ function checkResIfSupport(){
 }
 checkResIfSupport();
 
-//  animations
-var btnAnim = anime({
-    targets: '.links a',
-    translateY: "50px",
-    duration: 500,
-    autoplay: false,
+//  animate the first headline to come in alongside typed.js
+anime({
+    targets: "#headline",
+    keyframes: [
+        {scaleX: 0, duration: 0},
+        {scaleX: 1, delay: 700}
+    ],
+    duration: 2000,
+    loop: false,
     easing: 'easeInOutSine'
   });
 
-  var button = document.getElementsByClassName(links);
-  button.addEventListener("mouseover", btnAnim());
-
-
+// animate my name to slide in from the left
+  anime({
+    targets: "#name",
+    keyframes: [
+        {translateX: -1000, duration: 0},
+        {translateX: 1, delay: 500}
+    ],
+    duration: 1000,
+    loop: false,
+    easing: "easeInOutSine"
+  });
+  // TODO: test animations for the divider headlines sliding in from right
