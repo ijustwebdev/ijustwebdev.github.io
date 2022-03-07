@@ -7,4 +7,4 @@
   
   Overall it has been a really fun project that has brought my attention to flexbox and grid, my IDE shortcuts, and git as well as the concept of mobile first development and responsive design tricks and challenges. In the future I want to work on creating cleaner HTML files, using Javascript libraries and creating more element dense pages. 
 ##
-![001539](https://user-images.githubusercontent.com/50127921/156496432-e09bae45-6cbe-41aa-bc2e-7be80b0c34b7.png)
+![001552](https://user-images.githubusercontent.com/50127921/157032758-35c5afe7-77e9-4036-a717-cbd987aa74e5.png)
