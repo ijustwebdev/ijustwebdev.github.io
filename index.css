@@ -55,21 +55,27 @@
         margin-top: 2%;
     }
     .links{
-        margin-top: 10%;
+        margin-top: 3%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         text-align: center;
-
     }
     .links a{
         color: #FFF;
-        background-color: #1282a2;
+        background-color: #0f708b;
         width: 5rem;
         margin: 3%;
         padding: 1rem 1.5rem;
         box-shadow: 0 4px 0 #034078;
+        border: 1px solid #034078;
         border-radius: 10px;
+        transition: all 250ms ease-in-out;
+    }
+    .links a:hover{
+        background-color: #034078;
+        box-shadow: 0 4px 0 #034078;
+        width: 13%;
     }
     .links a:active{
         box-shadow: 0 4px 0 #f5f5f5;
