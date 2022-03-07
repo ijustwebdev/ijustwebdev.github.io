@@ -2,7 +2,7 @@
 let typed = new Typed('#hello', options = {
     strings: ["Hello!"],
     typeSpeed: 40,
-    startDelay: 1000,
+    startDelay: 1900,
     backSpeed: 70,
     showCursor: true,
     cursorChar: "_",
@@ -21,40 +21,113 @@ function checkRes(){
 checkRes();
 
 function animate(){
-//  animate the first headline to come in alongside typed.js
-    anime({
+  // animate navbar fadein
+  let navbar = anime({
+    targets: "#navbar",
+    keyframes: [
+      {opacity: "0", duration: 0},
+      {opacity: "100%"}
+    ],
+    duration: 10000,
+    loop: false,
+    easing: "easeOutElastic"
+  });
+  // NAME animation
+  let name = anime({
+    targets: "#name",
+    keyframes: [
+        {translateX: -500, duration: 0},
+        {translateX: 1, delay: 100}
+    ],
+    duration: 3000,
+    delay: 500,
+    loop: false,
+    easing: "easeOutElastic"
+  });
+  // animate the "web developer" text
+  anime({
+    targets: "#webdeveloper",
+    keyframes:[
+      {opacity: "0%", translateY: "+=50", duration: 0},
+      {opacity: "100%", translateY: 0}
+    ],
+    duration: 2000,
+    delay: 1000,
+    loop: false,
+    easing: "easeOutCubic"
+  });
+  // animate the linkedin logo fadein
+  anime({
+      targets: "#linkedin img",
+      keyframes: [
+        {translateY: "-200%", duration: 0},
+        {translateY: "0%"}
+    ],
+    duration: 2000,
+    delay: 1000,
+    loop: false,
+    easing: "easeInOutCubic"
+  });
+  // animate the typedjs greeting
+  anime({
+    targets: "#greeting",
+    keyframes: [
+      {opacity: "0%", duration: 0},
+      {opacity: "100%"}
+  ],
+  duration: 2000,
+  delay: 1000,
+  loop: false,
+  easing: "easeInOutCubic"
+  });
+  // animate the firsttext div
+  anime({
+    targets: "#firsttext",
+    keyframes: [
+      {opacity: "0%", duration: 0},
+      {opacity: "100%"}
+  ],
+  duration: 10000,
+  delay: 2000,
+  loop: false,
+  easing: "easeOutExpo"
+  });
+  // animate the buttons to fadein
+  anime({
+    targets: ".empty",
+    keyframes: [
+      {opacity: 0, duration: 0},
+      {opacity: 100, delay: 0}
+  ],
+  duration: 10000,
+  delay: 2500,
+  loop: false,
+  easing: "easeOutExpo"
+  });
+  //  animate the first headline to come in alongside typed.js
+  anime({
     targets: "#headline",
     keyframes: [
         {width: "0%", duration: 0},
         {width: "87%", delay: 100}
     ],
     duration: 3000,
+    delay: 2000,
     loop: false,
-    easing: 'easeInOutCubic'
+    easing: 'easeInOutQuint'
   });
-
-// NAME
+  // animate the abit and aboutme sections sliding in from the left
   anime({
-    targets: "#name",
+    targets: ["#abit", "#aboutme"],
     keyframes: [
-        {translateX: -1000, duration: 0},
-        {translateX: 1, delay: 300}
+      {translateX: "-=1000", duration: 0},
+      {translateX: "0"}
     ],
-    duration: 2000,
+    duration: 3000,
+    delay: 2000,
     loop: false,
-    easing: "easeOutElastic"
+    easing: "easeInOutQuint"
   });
-
-// animate the linkedin logo fadein
-  anime({
-      targets: "#linkedin img",
-      keyframes: [
-        {opacity: 0, duration: 0},
-        {opacity: 100, delay: 100}
-    ],
-    duration: 8000,
-    loop: false,
-    easing: "easeInOutCubic"
-  })
-}
+};
 animate()
+
