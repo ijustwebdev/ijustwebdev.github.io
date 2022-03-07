@@ -1,4 +1,4 @@
-// typed.js 
+// typed.js stuff
 var typed = new Typed('#hello', options = {
     strings: ["Hello!"],
     typeSpeed: 40,
@@ -11,6 +11,7 @@ var typed = new Typed('#hello', options = {
     fadeOutDelay: 700
     }
 );
+
 // display alert if resolution is above our current highest supported
 function checkResIfSupport(){
     if(screen.width > 1920){
@@ -20,12 +21,17 @@ function checkResIfSupport(){
     }
 }
 checkResIfSupport();
+
 //  animations
-anime({
-    // Disabled while I work on getting typedjs working better
-    // targets: '.links a',
-    translateY: "-100px",
-    duration: 1000
+var btnAnim = anime({
+    targets: '.links a',
+    translateY: "50px",
+    duration: 500,
+    autoplay: false,
+    easing: 'easeInOutSine'
   });
+
+  var button = document.getElementsByClassName(links);
+  button.addEventListener("mouseover", btnAnim());
 
 

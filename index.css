@@ -92,12 +92,17 @@
         font-size: 2rem;
     }
     .typed-cursor{
-        top: -50%
+        font-size: 2em;
     }
     #firsttext{
         font-weight: 700;
         margin: 0 auto;
         margin-top: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
     }
     #headline{
         height: 0;
