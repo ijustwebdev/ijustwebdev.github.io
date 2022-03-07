@@ -2,7 +2,7 @@
 let typed = new Typed('#hello', options = {
     strings: ["Hello!"],
     typeSpeed: 40,
-    startDelay: 900,
+    startDelay: 1000,
     backSpeed: 70,
     showCursor: true,
     cursorChar: "_",
@@ -22,27 +22,41 @@ function checkResIfSupport(){
 }
 checkResIfSupport();
 
+function animate(){
 //  animate the first headline to come in alongside typed.js
-anime({
+    anime({
     targets: "#headline",
     keyframes: [
-        {scaleX: 0, duration: 0},
-        {scaleX: 1, delay: 700}
+        {width: "0%", duration: 0},
+        {width: "87%", delay: 100}
     ],
-    duration: 2000,
+    duration: 3000,
     loop: false,
-    easing: 'easeInOutSine'
+    easing: 'easeInOutCubic'
   });
 
-// animate my name to slide in from the left
+// NAME
   anime({
     targets: "#name",
     keyframes: [
         {translateX: -1000, duration: 0},
-        {translateX: 1, delay: 500}
+        {translateX: 1, delay: 300}
     ],
-    duration: 1000,
+    duration: 2000,
     loop: false,
-    easing: "easeInOutSine"
+    easing: "easeOutElastic"
   });
-  // TODO: test animations for the divider headlines sliding in from right
+
+// animate the linkedin logo fadein
+  anime({
+      targets: "#linkedin img",
+      keyframes: [
+        {opacity: 0, duration: 0},
+        {opacity: 100, delay: 100}
+    ],
+    duration: 8000,
+    loop: false,
+    easing: "easeInOutCubic"
+  })
+}
+animate()
