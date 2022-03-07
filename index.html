@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d772af5330.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./node_modules/animejs/lib/anime.min.js"></script>
   </head>
   <body>
     <nav id="navbar">
@@ -22,45 +23,51 @@
         
     </nav>
     
-    <div id="greeting" class="textbox">
-      <div id="hello"></div>
-    </div>
     <div id="greeting">
+      <span id="hello"></span>
+    </div>
+
+    <div id="firsttext">
       <br>
-      I'm a Web Developer located in West Virginia. 
+      I'm a Web Developer currently located in West Virginia. 
       <br>
       Welcome to my portfolio!
     </div>
     
-    
     <span class="links">
-      <a href="#about-divider">About Me</a>
-      <a href="#skills-divider">Skills</a>
-      <a href="#projects-divider">Projects</a>
-      <a href="#contact-divider">Contact</a>
+      <a href="#about-divider" class="empty">About Me</a>
+      <a href="#skills-divider" class="empty">Skills</a>
+      <a href="#projects-divider" class="empty">Projects</a>
+      <a href="#contact-divider" class="empty">Contact</a>
     </span>
+
     <div id="about-divider">
       <span id="abit">A bit</span>
       <span id="headline"></span>
     </div>
+
     <span id="aboutme">About Me</span>
-    <div id="aboutsection" class="textbox">
+
+    <div id="aboutsection">
         <img src="images/photo.jpg" alt="A photo of me holding a drone" id="myphoto">
         <span id="myphototext">Me with one of many drones I like to fly.</span>
         <br>
         <span id="abouttext">
-          <span class="aboutinfo">I began my webdev adventure in a highschool intro to html/css class and found great enjoyment in creating simple HTML and CSS sites. I was hooked.</span>
+          <span class="aboutinfo">I began my webdev adventure in a highschool intro to webdev class and found great enjoyment in creating simple HTML and CSS sites. I was hooked.</span>
           <span class="aboutinfo">While pursuing a degree, I studied (and still do!) using resources like Codecademy, Freecodecamp, TheOdinProject, and Scrimba, which introduced me to many new technologies.</span>
           <span class="aboutinfo">Since graduating, I have been working on personal projects (Like this site!) in an effort to escape tutorial hell.</span>
           <span class="aboutinfo">In the future I hope to join a team of developers to contribute help build something cool!</span>
         </span>
         <br>
     </div>
+
     <div id="skills-divider">
       <span id="skillslinetext">A few of my</span>
       <span id="skillsheadline"></span>
     </div>
+
     <span id="skillstext">Skills</span>
+
     <div id="skillscontainer"> 
       <div id="workedwith">
         <span id="workedwithtext">Comfortable with these but always learning</span>
@@ -84,11 +91,14 @@
         </div>
       </div>
     </div>
+
     <div id="projects-divider">
       <span id="projectslinetext">Check out my</span>
       <span id="projectsheadline"></span>
     </div>
+
     <span id="projectstext">Projects</span>
+
     <div id="projectscontainer">
       <div class="projectbadge">
         <a href="https://github.com/ijustwebdev/Portfolio">
@@ -99,32 +109,36 @@
         <div class="prjtext">This is the page you're on. It's my first shot at a responsive application!</div>
       </div>
       <div class="projectbadge">
-    <a href="https://github.com/ijustwebdev/TetrisAttempt">
-      <div class="prjname">No tutorial tetris (attempt)</div>
+        <a href="https://github.com/ijustwebdev/TetrisAttempt">
+        <div class="prjname">No tutorial tetris (attempt)</div>
         <img class="projectimage" src="images/tetris.png">
         <img src="images/githublight.png" class="githublogo">
-    </a>
+        </a>
         <div class="prjtext">As a challenge I tried using no tutorials, frameworks, or libraries. <br><br> Currently I've run into a wall trying to implement piece rotation.</div>
       </div>
-    <div class="projectbadge">
-      <a href="https://github.com/ijustwebdev/OneDaySite">
-        <div class="prjname">Frontendmentor exercise</div>
-        <img class="projectimage" src="images/fableton.png">
-        <img src="images/githublight.png" class="githublogo">
-      </a>
-      <div class="prjtext">Hopped on frontendmentor to replicate a website. This was a good learning experience and kind of fun to have a design done for me already.</div>
+      <div class="projectbadge">
+        <a href="https://github.com/ijustwebdev/OneDaySite">
+          <div class="prjname">Frontendmentor exercise</div>
+          <img class="projectimage" src="images/fableton.png">
+          <img src="images/githublight.png" class="githublogo">
+        </a>
+        <div class="prjtext">Hopped on frontendmentor to replicate a website. This was a good learning experience and kind of fun to have a design done for me already.</div>
+      </div>
     </div>
-  </div>
+
   <div id="contact-divider">
     <span id="contactlinetext">You should</span>
     <span id="contactheadline"></span>
   </div>
+
   <span id="contacttext">Contact me</span>
+
   <div class="links contact">
     <a href="https://www.linkedin.com/in/forrest-mullenax/">Linkedin</a>
     <a href="https://github.com/ijustwebdev">Github</a>
     <a href="mailto: fcmbox2@gmail.com">Email</a>
   </div>
+  
 	<script src="index.js"></script>
   </body>
 </html>
