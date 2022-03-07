@@ -22,7 +22,7 @@ checkRes();
 
 function animate(){
   // animate navbar fadein
-  let navbar = anime({
+  anime({
     targets: "#navbar",
     keyframes: [
       {opacity: "0", duration: 0},
@@ -30,19 +30,19 @@ function animate(){
     ],
     duration: 10000,
     loop: false,
-    easing: "easeOutElastic"
+    easing: "easeOutQuart"
   });
   // NAME animation
-  let name = anime({
+  anime({
     targets: "#name",
     keyframes: [
-        {translateX: -500, duration: 0},
+        {translateX: -1000, duration: 0},
         {translateX: 1, delay: 100}
     ],
     duration: 3000,
     delay: 500,
     loop: false,
-    easing: "easeOutElastic"
+    easing: "easeOutQuart"
   });
   // animate the "web developer" text
   anime({
@@ -127,6 +127,18 @@ function animate(){
     delay: 2000,
     loop: false,
     easing: "easeInOutQuint"
+  });
+  // animate the rest of the content in the page to translate up and fade in
+  anime({
+    targets: "#restofcontent",
+    keyframes: [
+        {translateY: 1000, opacity: "0%", duration: 0},
+        {translateY: 0, opacity: "100%", delay: 100}
+    ],
+    duration: 3000,
+    delay: 2500,
+    loop: false,
+    easing: "easeOutSine"
   });
 };
 animate()
