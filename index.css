@@ -110,13 +110,17 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.3em;
+        width: 90%;
     }
     #headline{
         height: 0;
         width: 80%;
         border: 1px solid #034078;
         margin-top: 3%;
+    }
+    #mytext{
+        margin-bottom: 2%;
     }
     #abit{
         width: 20%;
