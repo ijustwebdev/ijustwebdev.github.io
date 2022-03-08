@@ -137,6 +137,7 @@
         font-weight: 800;
         margin-left: 2%;
         width: auto;
+        display: block;
     }
     #aboutsection{
         display: flex;
