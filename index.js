@@ -2,7 +2,7 @@
 let typed = new Typed('#hello', options = {
     strings: ["Hello!"],
     typeSpeed: 40,
-    startDelay: 1700,
+    startDelay: 1900,
     backSpeed: 70,
     showCursor: true,
     cursorChar: "_",
@@ -28,7 +28,7 @@ function animate(){
       {opacity: "0", duration: 0},
       {opacity: "100%"}
     ],
-    duration: 5000,
+    duration: 10000,
     loop: false,
     easing: "easeOutQuart"
   });
@@ -96,13 +96,13 @@ function animate(){
   anime({
     targets: ".empty",
     keyframes: [
-      {opacity: "0%", duration: 0},
-      {opacity: "100%"}
+      {opacity: 0, duration: 0},
+      {opacity: 100, delay: 0}
   ],
-  duration: 2000,
-  delay: 3000,
+  duration: 10000,
+  delay: 2500,
   loop: false,
-  easing: "easeOutQuint"
+  easing: "easeOutExpo"
   });
   //  animate the first headline to come in alongside typed.js
   anime({
@@ -118,7 +118,7 @@ function animate(){
   });
   // animate the abit and aboutme sections sliding in from the left
   anime({
-    targets: "#abit",
+    targets: ["#abit", "#aboutme"],
     keyframes: [
       {translateX: "-=1000", duration: 0},
       {translateX: "0"}
@@ -126,18 +126,7 @@ function animate(){
     duration: 3000,
     delay: 2000,
     loop: false,
-    easing: "easeOutQuint"
-  });
-  anime({
-    targets: "#aboutme",
-    keyframes: [
-      {translateX: "-=1000", duration: 0},
-      {translateX: "0"}
-    ],
-    duration: 3000,
-    delay: 2000,
-    loop: false,
-    easing: "easeOutQuint"
+    easing: "easeInOutQuint"
   });
   // animate the rest of the content in the page to translate up and fade in
   anime({
