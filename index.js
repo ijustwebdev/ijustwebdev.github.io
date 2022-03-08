@@ -26,9 +26,8 @@ function animate(){
     targets: "#navbar",
     keyframes: [
       {opacity: "0", duration: 0},
-      {opacity: "100%"}
+      {opacity: "100%", duration: 2000}
     ],
-    duration: 10000,
     loop: false,
     easing: "easeOutQuart"
   });
