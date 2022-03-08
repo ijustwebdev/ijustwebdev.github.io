@@ -85,14 +85,13 @@ function animate(){
     targets: "#firsttext",
     keyframes: [
       {opacity: "0%", duration: 0},
-      {opacity: "100%"}
+      {opacity: "100%", duration: 2000}
   ],
-  duration: 10000,
   delay: 2000,
   loop: false,
   easing: "easeOutExpo"
   });
-  // animate the buttons to fadein
+  // animate the B U T T O N S to fadein
   anime({
     targets: ".empty",
     keyframes: [
@@ -136,7 +135,7 @@ function animate(){
         {translateY: 0, opacity: "100%", delay: 100}
     ],
     duration: 3000,
-    delay: 2500,
+    delay: 2100,
     loop: false,
     easing: "easeOutSine"
   });
