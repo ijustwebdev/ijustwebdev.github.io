@@ -1,4 +1,4 @@
-# My current portfolio page. Under Construction!
+# My current portfolio page.
   This is my most recent page I've created. It's a simple site that serves to host some information about me, a few of the most recent small projects I've done, and provides some links to get into contact with me. This is my first attempt at creating a responsive website.
 
   I used HTML, CSS, and a little Javascript to create what I have right now as well as [typed.js](https://github.com/mattboldt/typed.js/) and [anime.js](https://github.com/juliangarnier/anime/) to handle animations. In the future I want to add more animations to the page to allow elements to come into view with a bit more excitement but also to do so in a way that is visually pleasing. I also have considered using React but I haven't come across anything that would require it so I've kinda put that off. This page is sort of a testing playground for me to learn in and hopefully leave in a state that's presentable. 
